@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Addons/physics_assets/Ui/SaveRigDataUi.gd" type="Script" id=1]
+
+[node name="VbSaveRigDataUi" type="VBoxContainer"]
+anchor_right = 0.239258
+anchor_bottom = 0.0333333
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="BtnSaveRigData" type="Button" parent="."]
+unique_name_in_owner = true
+margin_right = 245.0
+margin_bottom = 20.0
+text = "Save Rig Data"

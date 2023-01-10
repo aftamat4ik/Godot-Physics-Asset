@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Addons/physics_assets/Resources/WiggleProperties.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+mode = 0
+stiffness = 0.1
+damping = 0.1
+gravity = Vector3( 0, -0.5, 0 )
+mass_center = Vector3( 0, 0.5, 0 )
+max_degrees = 60.0
+max_distance = 0.1

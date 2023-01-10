@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/Simulate Ragdoll Button.PNG-7eca45ed5f52a7efb9376e48297d9cfb.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Img/Simulate Ragdoll Button.PNG"
+dest_files=[ "res://.import/Simulate Ragdoll Button.PNG-7eca45ed5f52a7efb9376e48297d9cfb.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

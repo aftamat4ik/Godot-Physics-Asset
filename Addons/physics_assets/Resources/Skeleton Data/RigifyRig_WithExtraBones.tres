@@ -1,0 +1,1908 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Addons/physics_assets/Resources/SkeletonDataResource.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+data = {
+0: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-eye.L",
+"parent": -1,
+"parent_name": "",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -1, 0, 0, 0, 0, 1, 0, 1, 0, 0.0367011, 1.70185, 0.12348 )
+},
+1: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-eye_iris.L",
+"parent": 0,
+"parent_name": "DEF-eye.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0122668, -1.19209e-07 )
+},
+2: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-eye.R",
+"parent": -1,
+"parent_name": "",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -1, 0, 0, 0, 0, 1, 0, 1, 0, -0.0367011, 1.70185, 0.12348 )
+},
+3: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-eye_iris.R",
+"parent": 2,
+"parent_name": "DEF-eye.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0122668, -1.19209e-07 )
+},
+4: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-spine",
+"parent": -1,
+"parent_name": "",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 1.06581e-14, 2.38419e-07, 5.95188e-08, 0.968339, -0.24964, -2.3087e-07, 0.24964, 0.968339, 0, 0.920611, -0.0503195 )
+},
+5: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-pelvis.L",
+"parent": 4,
+"parent_name": "DEF-spine",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.421772, 0.536322, -0.731073, -0.052532, 0.79049, 0.610218, 0.905179, 0.295778, -0.305233, 4.35753e-08, -3.77553e-09, 2.19186e-08 )
+},
+6: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thigh.L",
+"parent": 5,
+"parent_name": "DEF-pelvis.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.421772, 0.342026, -0.839718, 0.536322, -0.652623, -0.535203, -0.731073, -0.676093, 0.0918221, -0.0196643, 0.105939, -0.0331351 )
+},
+7: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thigh.L.001",
+"parent": 6,
+"parent_name": "DEF-thigh.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 2.98023e-08, 1.04308e-07, -2.98023e-08, 1, 7.45058e-08, -1.04308e-07, -7.45058e-08, 1, 9.08e-09, 0.244473, 4.5007e-09 )
+},
+8: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-shin.L",
+"parent": 7,
+"parent_name": "DEF-thigh.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -4.15839e-08, -0.000224492, -3.91128e-05, 0.984673, -0.17441, 0.000221059, 0.17441, 0.984673, 7.67099e-09, 0.244473, -3.07734e-09 )
+},
+9: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-shin.L.001",
+"parent": 8,
+"parent_name": "DEF-shin.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -1.10191e-11, 2.28511e-11, 1.10191e-11, 1, 6.33104e-08, -2.28511e-11, -6.33104e-08, 1, -8.15419e-09, 0.207028, 2.44836e-09 )
+},
+10: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-foot.L",
+"parent": 9,
+"parent_name": "DEF-shin.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -0.000200966, -0.000144621, 0.000218784, 0.443775, 0.896138, -0.000115914, -0.896138, 0.443776, -1.56067e-08, 0.207028, 8.66031e-09 )
+},
+11: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-toe.L",
+"parent": 10,
+"parent_name": "DEF-foot.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -1, -0.000129394, -0.000206943, -4.63479e-08, 0.847998, -0.529999, 0.000244066, -0.529999, -0.847998, -5.08112e-09, 0.117818, 4.89854e-09 )
+},
+12: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtRoot",
+"parent": 4,
+"parent_name": "DEF-spine",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 5.95187e-08, -2.3087e-07, 1.77636e-15, 0.968339, 0.24964, 2.38419e-07, -0.24964, 0.968339, -2.42888e-09, 0.162052, 0.0101875 )
+},
+13: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.005",
+"parent": 12,
+"parent_name": "SkirtRoot",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.226687, 0.380669, 0.896495, -0.557649, -0.80538, 0.200973, 0.798524, -0.454372, 0.394849, 0.0786929, 0.051036, -0.0161046 )
+},
+14: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.006",
+"parent": 13,
+"parent_name": "SkirtLine.l.005",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.929869, 0.333733, 0.154811, -0.347445, 0.934983, 0.071334, -0.120939, -0.120119, 0.985366, 6.58536e-08, 0.199466, 2.94872e-08 )
+},
+15: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.007",
+"parent": 14,
+"parent_name": "SkirtLine.l.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999923, 0.0120652, 0.00291081, -0.0120791, 0.999916, 0.00482067, -0.00285241, -0.00485546, 0.999984, 0, 0.242493, -7.45058e-09 )
+},
+16: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.008",
+"parent": 15,
+"parent_name": "SkirtLine.l.007",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999984, -0.0056356, -0.00102749, 0.00562736, 0.999953, -0.0078448, 0.00107165, 0.00783889, 0.999969, 2.96344e-08, 0.242658, -2.58434e-08 )
+},
+17: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.009",
+"parent": 12,
+"parent_name": "SkirtRoot",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.664285, 0.409689, 0.625204, 0.0243641, -0.824105, 0.565913, 0.747082, 0.39116, 0.537459, 0.0759395, 0.0609948, 0.0666636 )
+},
+18: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.010",
+"parent": 17,
+"parent_name": "SkirtLine.l.009",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.989974, -0.0229535, -0.139371, 0.0706132, 0.934983, 0.347591, 0.122331, -0.353948, 0.92723, 3.58185e-08, 0.199466, 9.90263e-08 )
+},
+19: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.011",
+"parent": 18,
+"parent_name": "SkirtLine.l.010",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999983, -0.00483054, -0.00327902, 0.00486976, 0.999915, 0.0120595, 0.00322049, -0.0120753, 0.999922, -2.94163e-08, 0.242493, -5.1504e-08 )
+},
+20: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.012",
+"parent": 19,
+"parent_name": "SkirtLine.l.011",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999967, 0.00786186, 0.00193794, -0.00785086, 0.999953, -0.00561896, -0.00198203, 0.00560356, 0.999982, -2.98023e-08, 0.242658, -3.72529e-08 )
+},
+21: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.009",
+"parent": 12,
+"parent_name": "SkirtRoot",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.664285, -0.409689, -0.625204, -0.0243641, -0.824105, 0.565913, -0.747082, 0.39116, 0.537459, -0.0759395, 0.0609948, 0.0666636 )
+},
+22: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.010",
+"parent": 21,
+"parent_name": "SkirtLine.r.009",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.989974, 0.0229535, 0.139371, -0.0706132, 0.934983, 0.347591, -0.122331, -0.353948, 0.92723, -3.58185e-08, 0.199466, 9.90263e-08 )
+},
+23: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.011",
+"parent": 22,
+"parent_name": "SkirtLine.r.010",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999983, 0.00483054, 0.00327902, -0.00486976, 0.999915, 0.0120595, -0.00322049, -0.0120753, 0.999922, 2.94163e-08, 0.242493, -5.1504e-08 )
+},
+24: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.012",
+"parent": 23,
+"parent_name": "SkirtLine.r.011",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999967, -0.00786186, -0.00193794, 0.00785086, 0.999953, -0.00561896, 0.00198203, 0.00560356, 0.999982, 2.98023e-08, 0.242658, -3.72529e-08 )
+},
+25: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.001",
+"parent": 12,
+"parent_name": "SkirtRoot",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.413467, 0.535719, 0.736241, -0.315874, -0.842772, 0.435842, 0.853972, -0.052353, 0.517678, 0.12273, 0.0325402, 0.0383982 )
+},
+26: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.002",
+"parent": 25,
+"parent_name": "SkirtLine.l.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.995517, 0.0923353, 0.0204918, -0.0944707, 0.981231, 0.16811, -0.00458475, -0.169292, 0.985555, -2.7329e-08, 0.181039, -3.22446e-09 )
+},
+27: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.003",
+"parent": 26,
+"parent_name": "SkirtLine.l.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999827, -0.0186103, 0.00090148, 0.0186281, 0.999446, -0.0275956, -0.000387418, 0.0276076, 0.999619, -6.15158e-08, 0.24576, -3.95469e-08 )
+},
+28: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.l.004",
+"parent": 27,
+"parent_name": "SkirtLine.l.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.997751, 0.0669683, 0.00296738, -0.0669181, 0.992448, 0.102803, 0.00393958, -0.10277, 0.994697, -3.23823e-09, 0.250378, 1.23576e-08 )
+},
+29: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.b.001",
+"parent": 12,
+"parent_name": "SkirtRoot",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.736328, 1.49012e-08, 0.676624, -0.380754, -0.826644, -0.41435, 0.559328, -0.562725, 0.608681, -1.03699e-15, 0.0530487, -0.0361868 )
+},
+30: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.b.002",
+"parent": 29,
+"parent_name": "SkirtLine.b.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.944882, 0.218476, -0.243857, -0.266054, 0.946436, -0.182959, 0.190823, 0.237754, 0.952397, -4.66413e-08, 0.199616, -3.58136e-08 )
+},
+31: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.b.003",
+"parent": 30,
+"parent_name": "SkirtLine.b.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999192, 0.0392961, -0.00842747, -0.0395084, 0.998862, -0.0267116, 0.00736822, 0.027023, 0.999608, 1.28112e-08, 0.244673, -1.16774e-08 )
+},
+32: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.b.004",
+"parent": 31,
+"parent_name": "SkirtLine.b.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.99992, -0.00604838, 0.0111141, 0.0060025, 0.999973, 0.00415639, -0.011139, -0.00408934, 0.99993, -3.14502e-09, 0.242657, -3.09576e-09 )
+},
+33: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.001",
+"parent": 12,
+"parent_name": "SkirtRoot",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.413467, -0.535719, -0.736241, 0.315874, -0.842772, 0.435842, -0.853972, -0.052353, 0.517678, -0.12273, 0.0325402, 0.0383982 )
+},
+34: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.002",
+"parent": 33,
+"parent_name": "SkirtLine.r.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.995517, -0.0923353, -0.0204918, 0.0944707, 0.981231, 0.16811, 0.00458475, -0.169292, 0.985555, 2.7329e-08, 0.181039, -3.22446e-09 )
+},
+35: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.003",
+"parent": 34,
+"parent_name": "SkirtLine.r.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999827, 0.0186103, -0.00090148, -0.0186281, 0.999446, -0.0275956, 0.000387418, 0.0276076, 0.999619, 6.15158e-08, 0.24576, -3.95469e-08 )
+},
+36: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.004",
+"parent": 35,
+"parent_name": "SkirtLine.r.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.997751, -0.0669683, -0.00296738, 0.0669181, 0.992448, 0.102803, -0.00393958, -0.10277, 0.994697, 3.23823e-09, 0.250378, 1.23576e-08 )
+},
+37: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.005",
+"parent": 12,
+"parent_name": "SkirtRoot",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.226687, -0.380669, -0.896495, 0.557649, -0.80538, 0.200973, -0.798524, -0.454372, 0.394849, -0.0786929, 0.051036, -0.0161046 )
+},
+38: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.006",
+"parent": 37,
+"parent_name": "SkirtLine.r.005",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.929869, -0.333733, -0.154811, 0.347445, 0.934983, 0.071334, 0.120939, -0.120119, 0.985366, -6.58536e-08, 0.199466, 2.94872e-08 )
+},
+39: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.007",
+"parent": 38,
+"parent_name": "SkirtLine.r.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999923, -0.0120652, -0.00291081, 0.0120791, 0.999916, 0.00482067, 0.00285241, -0.00485546, 0.999984, 0, 0.242493, -7.45058e-09 )
+},
+40: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.r.008",
+"parent": 39,
+"parent_name": "SkirtLine.r.007",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999984, 0.0056356, 0.00102749, -0.00562736, 0.999953, -0.0078448, -0.00107165, 0.00783889, 0.999969, -2.96344e-08, 0.242658, -2.58434e-08 )
+},
+41: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.f.001",
+"parent": 12,
+"parent_name": "SkirtRoot",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.736329, 7.45058e-08, 0.676625, 0.380063, -0.827338, 0.4136, 0.559797, 0.561705, 0.609193, 6.22743e-08, 0.0530486, 0.112746 )
+},
+42: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.f.002",
+"parent": 41,
+"parent_name": "SkirtLine.f.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.938535, -0.23987, -0.248222, 0.292107, 0.935052, 0.200875, 0.183916, -0.261035, 0.947647, 9.92059e-09, 0.199449, 9.40866e-08 )
+},
+43: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.f.003",
+"parent": 42,
+"parent_name": "SkirtLine.f.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999912, -0.0106031, -0.00794046, 0.0106604, 0.999917, 0.00720746, 0.00786339, -0.00729148, 0.999942, -1.61034e-08, 0.242493, -4.27823e-08 )
+},
+44: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "SkirtLine.f.004",
+"parent": 43,
+"parent_name": "SkirtLine.f.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.997251, -0.0735098, 0.00926638, 0.0729522, 0.996055, 0.0505148, -0.0129432, -0.0497, 0.99868, -6.92165e-08, 0.242657, 1.87893e-08 )
+},
+45: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-pelvis.R",
+"parent": 4,
+"parent_name": "DEF-spine",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.421772, -0.536322, 0.731073, 0.052532, 0.79049, 0.610218, -0.905179, 0.295778, -0.305233, 3.10056e-08, 7.05337e-08, -4.14444e-08 )
+},
+46: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thigh.R",
+"parent": 45,
+"parent_name": "DEF-pelvis.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.421772, -0.342026, 0.839718, -0.536322, -0.652623, -0.535203, 0.731072, -0.676093, 0.0918223, 0.0196643, 0.105939, -0.0331351 )
+},
+47: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thigh.R.001",
+"parent": 46,
+"parent_name": "DEF-thigh.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 5.96046e-08, -7.45051e-09, -5.96046e-08, 1, 3.72529e-08, 7.45051e-09, -3.72529e-08, 1, -5.60945e-09, 0.244473, 8.81655e-09 )
+},
+48: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-shin.R",
+"parent": 47,
+"parent_name": "DEF-thigh.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -4.15876e-08, -0.000224492, -3.91128e-05, 0.984673, -0.17441, 0.000221059, 0.17441, 0.984673, 7.67183e-09, 0.244473, -6.42425e-09 )
+},
+49: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-shin.R.001",
+"parent": 48,
+"parent_name": "DEF-shin.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -5.23646e-12, 5.11591e-11, 5.23646e-12, 1, 3.72881e-08, -5.11591e-11, -3.72881e-08, 1, 6.73901e-09, 0.207028, 2.02999e-09 )
+},
+50: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-foot.R",
+"parent": 49,
+"parent_name": "DEF-shin.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -0.000200966, -0.000144621, 0.000218784, 0.443775, 0.896138, -0.000115914, -0.896138, 0.443775, -8.16452e-09, 0.207028, 7.74066e-09 )
+},
+51: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-toe.R",
+"parent": 50,
+"parent_name": "DEF-foot.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -1, -0.000129394, -0.000206943, -4.63915e-08, 0.847998, -0.529999, 0.000244066, -0.529999, -0.847998, -5.08589e-09, 0.117818, -2.63753e-10 )
+},
+52: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-spine.001",
+"parent": 4,
+"parent_name": "DEF-spine",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 3.06808e-08, 1.98225e-09, -3.06808e-08, 0.991686, 0.128685, 1.98239e-09, -0.128685, 0.991686, 1.55431e-15, 0.138761, -2.79397e-09 )
+},
+53: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-spine.002",
+"parent": 52,
+"parent_name": "DEF-spine.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 3.68267e-08, 2.86139e-09, -3.68268e-08, 0.987998, 0.154463, 2.86131e-09, -0.154463, 0.987999, -2.16493e-15, 0.124556, 9.0804e-09 )
+},
+54: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-breast.R",
+"parent": 53,
+"parent_name": "DEF-spine.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -1, -2.34862e-07, -9.14607e-08, -8.39429e-08, -0.0318124, 0.999494, -2.37653e-07, 0.999494, 0.0318124, -0.109898, 0.160183, 0.131594 )
+},
+55: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-spine.003",
+"parent": 53,
+"parent_name": "DEF-spine.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -7.75884e-10, -2.38417e-07, 3.60822e-16, 0.999995, -0.00325429, 2.38419e-07, 0.00325429, 0.999995, -8.88178e-16, 0.157602, 9.31323e-10 )
+},
+56: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-shoulder.R",
+"parent": 55,
+"parent_name": "DEF-spine.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.507095, -0.86189, -0.00052923, 0.0246889, 0.013912, 0.999598, -0.861537, -0.506904, 0.0283338, -0.016682, 0.125089, 0.0713325 )
+},
+57: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-upper_arm.R",
+"parent": 56,
+"parent_name": "DEF-shoulder.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.442888, -0.249726, -0.861097, 0.330938, 0.847073, -0.41587, 0.833265, -0.469153, -0.292515, -0.00710267, 0.183038, -0.0185825 )
+},
+58: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-upper_arm.R.001",
+"parent": 57,
+"parent_name": "DEF-upper_arm.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 1.75089e-07, 1.93715e-07, -1.75089e-07, 1, -1.49012e-08, -1.93715e-07, 1.49011e-08, 1, 1.4063e-07, 0.131501, -5.96047e-08 )
+},
+59: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forearm.R",
+"parent": 58,
+"parent_name": "DEF-upper_arm.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -2.78034e-07, 8.21495e-07, 5.59425e-07, 0.930606, -0.366021, -6.62722e-07, 0.366021, 0.930607, 8.75443e-08, 0.131501, -1.82156e-08 )
+},
+60: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forearm.R.001",
+"parent": 59,
+"parent_name": "DEF-forearm.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 3.03611e-07, -5.36442e-07, -3.03611e-07, 1, 1.95578e-07, 5.36442e-07, -1.95578e-07, 1, 1.82539e-07, 0.119799, 4.57412e-14 )
+},
+61: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-hand.R",
+"parent": 60,
+"parent_name": "DEF-forearm.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.997823, -0.0659503, -6.61821e-07, 0.0659063, 0.997156, 0.0365463, -0.00240958, -0.0364668, 0.999332, -7.33664e-08, 0.119799, 3.32516e-08 )
+},
+62: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-palm.03.R",
+"parent": 61,
+"parent_name": "DEF-hand.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.258308, 0.0268045, -0.965691, 0.0652558, 0.996848, 0.0451243, 0.963856, -0.0746729, 0.255745, 0.00436711, 0.0365055, -0.00963476 )
+},
+63: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thumb.01.R",
+"parent": 61,
+"parent_name": "DEF-hand.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.90602, -0.325913, 0.270016, -0.123158, 0.813393, 0.568528, -0.40492, 0.481844, -0.777089, -0.0121231, 0.028092, 0.0259893 )
+},
+64: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thumb.02.R",
+"parent": 63,
+"parent_name": "DEF-thumb.01.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999763, 0.0217777, 3.70899e-07, -0.0204506, 0.938845, -0.343733, -0.00748606, 0.343651, 0.939068, -7.57756e-08, 0.0380538, -2.59936e-08 )
+},
+65: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thumb.03.R",
+"parent": 64,
+"parent_name": "DEF-thumb.02.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.998388, -0.0567401, 0.00148099, 0.0567094, 0.996073, -0.0679931, 0.00238275, 0.0679674, 0.997685, -5.66661e-08, 0.0304893, 2.29554e-08 )
+},
+66: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_ring.01.R",
+"parent": 61,
+"parent_name": "DEF-hand.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.102347, -0.500288, -0.859789, -0.0279247, 0.862543, -0.505214, 0.994357, 0.0757164, 0.074308, 0.00607233, 0.0999282, -0.0143857 )
+},
+67: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_ring.02.R",
+"parent": 66,
+"parent_name": "DEF-f_ring.01.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999975, -0.0071031, -2.95753e-07, 0.007019, 0.988142, -0.153384, 0.0010898, 0.15338, 0.988167, -5.58792e-09, 0.0408545, 2.2236e-07 )
+},
+68: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_ring.03.R",
+"parent": 67,
+"parent_name": "DEF-f_ring.02.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999819, 0.0189123, -0.00225383, -0.0186504, 0.94817, -0.317214, -0.00386224, 0.317199, 0.948351, -9.83944e-09, 0.028989, 1.40565e-08 )
+},
+69: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-palm.02.R",
+"parent": 61,
+"parent_name": "DEF-hand.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.222279, 0.034591, -0.974369, -0.0650442, 0.99767, 0.0205799, 0.972811, 0.0588026, 0.224011, 0.00806424, 0.0382625, 0.00390669 )
+},
+70: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_index.01.R",
+"parent": 61,
+"parent_name": "DEF-hand.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.0157049, -0.316272, -0.948539, -0.072509, 0.946518, -0.314398, 0.997244, 0.0638399, -0.0377976, 0.0116233, 0.0986728, 0.0286407 )
+},
+71: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_index.02.R",
+"parent": 70,
+"parent_name": "DEF-f_index.01.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999935, 0.011424, -1.18976e-07, -0.0112842, 0.987693, -0.155998, -0.00178201, 0.155988, 0.987757, 1.81783e-08, 0.0410656, 6.11585e-08 )
+},
+72: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_index.03.R",
+"parent": 71,
+"parent_name": "DEF-f_index.02.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999678, -0.0252354, 0.00266187, 0.0251612, 0.972164, -0.232948, 0.00329076, 0.232939, 0.972486, -2.84326e-10, 0.0257231, -1.27692e-07 )
+},
+73: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-palm.01.R",
+"parent": 61,
+"parent_name": "DEF-hand.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.204677, 0.0377424, -0.978102, -0.15048, 0.988591, 0.00665769, 0.967194, 0.145822, 0.208021, 0.0092277, 0.0359268, 0.0193853 )
+},
+74: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_middle.01.R",
+"parent": 61,
+"parent_name": "DEF-hand.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.0843142, -0.391437, -0.916334, -0.0577512, 0.916143, -0.396669, 0.994764, 0.0863643, 0.054638, 0.0102143, 0.100276, 0.00756177 )
+},
+75: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_middle.02.R",
+"parent": 74,
+"parent_name": "DEF-f_middle.01.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999986, 0.00532375, -6.63102e-07, -0.00517152, 0.971364, -0.237543, -0.00126397, 0.237539, 0.971377, -6.22258e-09, 0.0451682, -1.36816e-07 )
+},
+76: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_middle.03.R",
+"parent": 75,
+"parent_name": "DEF-f_middle.02.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999917, -0.0128321, 0.000648526, 0.0128157, 0.992487, -0.121676, 0.00091771, 0.121674, 0.992569, -1.02445e-08, 0.0293449, 1.86265e-09 )
+},
+77: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_pinky.01.R",
+"parent": 61,
+"parent_name": "DEF-hand.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.163495, -0.654447, -0.73822, 0.0583198, 0.753392, -0.654981, 0.984819, 0.0640332, 0.161343, -0.00333164, 0.0997763, -0.034968 )
+},
+78: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_pinky.02.R",
+"parent": 77,
+"parent_name": "DEF-f_pinky.01.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999965, -0.00836317, -8.86212e-08, 0.00832726, 0.995673, -0.0925562, 0.000774152, 0.092553, 0.995707, -7.45059e-09, 0.0254117, 7.65783e-08 )
+},
+79: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_pinky.03.R",
+"parent": 78,
+"parent_name": "DEF-f_pinky.02.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999782, 0.020817, -0.00145044, -0.020753, 0.984626, -0.17344, -0.00218235, 0.173432, 0.984843, 7.36088e-09, 0.0205951, 4.33019e-08 )
+},
+80: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-palm.04.R",
+"parent": 61,
+"parent_name": "DEF-hand.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.228561, -0.0392081, -0.97274, 0.18848, 0.982066, 0.00470249, 0.95511, -0.184417, 0.231852, -0.000658102, 0.0328105, -0.0223928 )
+},
+81: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-shoulder.L",
+"parent": 55,
+"parent_name": "DEF-spine.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.507095, 0.86189, 0.00052923, -0.0246889, 0.013912, 0.999598, 0.861537, -0.506904, 0.0283338, 0.016682, 0.125089, 0.0713325 )
+},
+82: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-upper_arm.L",
+"parent": 81,
+"parent_name": "DEF-shoulder.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.442888, 0.249726, 0.861097, -0.330938, 0.847073, -0.41587, -0.833265, -0.469153, -0.292515, 0.00710267, 0.183038, -0.0185825 )
+},
+83: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-upper_arm.L.001",
+"parent": 82,
+"parent_name": "DEF-upper_arm.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -1.75089e-07, -1.93715e-07, 1.75089e-07, 1, -1.49012e-08, 1.93715e-07, 1.49011e-08, 1, -1.4063e-07, 0.131501, -5.96047e-08 )
+},
+84: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forearm.L",
+"parent": 83,
+"parent_name": "DEF-upper_arm.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 2.78034e-07, -8.21495e-07, -5.59425e-07, 0.930606, -0.366021, 6.62722e-07, 0.366021, 0.930607, -8.75443e-08, 0.131501, -1.82156e-08 )
+},
+85: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forearm.L.001",
+"parent": 84,
+"parent_name": "DEF-forearm.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -3.03611e-07, 5.36442e-07, 3.03611e-07, 1, 1.95578e-07, -5.36442e-07, -1.95578e-07, 1, -1.82539e-07, 0.119799, 4.57412e-14 )
+},
+86: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-hand.L",
+"parent": 85,
+"parent_name": "DEF-forearm.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.997823, 0.0659503, 6.61821e-07, -0.0659063, 0.997156, 0.0365463, 0.00240958, -0.0364668, 0.999332, 7.33664e-08, 0.119799, 3.32516e-08 )
+},
+87: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-palm.02.L",
+"parent": 86,
+"parent_name": "DEF-hand.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.222279, -0.034591, 0.974369, 0.0650442, 0.99767, 0.0205799, -0.972811, 0.0588026, 0.224011, -0.00806424, 0.0382625, 0.00390669 )
+},
+88: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-palm.03.L",
+"parent": 86,
+"parent_name": "DEF-hand.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.25827, -0.0271195, 0.965692, -0.0638295, 0.996943, 0.045068, -0.963962, -0.0732793, 0.255749, -0.00434713, 0.0364964, -0.00972322 )
+},
+89: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_index.01.L",
+"parent": 86,
+"parent_name": "DEF-hand.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.00186944, 0.316822, 0.948483, 0.0656719, 0.946476, -0.316022, -0.99784, 0.0616979, -0.0225757, -0.0116232, 0.0986727, 0.0286406 )
+},
+90: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_index.02.L",
+"parent": 89,
+"parent_name": "DEF-f_index.01.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999894, -0.0145474, 1.99082e-06, 0.0143728, 0.987869, -0.154623, 0.0022474, 0.154607, 0.987973, 5.24254e-11, 0.0410577, 1.63392e-07 )
+},
+91: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_index.03.L",
+"parent": 90,
+"parent_name": "DEF-f_index.02.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999478, 0.0321345, -0.00339839, -0.0320396, 0.971835, -0.233475, -0.00419992, 0.233462, 0.972357, 2.82152e-08, 0.0257281, -1.98794e-08 )
+},
+92: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_middle.01.L",
+"parent": 86,
+"parent_name": "DEF-hand.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.0953307, 0.391952, 0.915033, 0.0508261, 0.916104, -0.397706, -0.994147, 0.0844211, 0.0674115, -0.0102144, 0.100276, 0.00756178 )
+},
+93: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_middle.02.L",
+"parent": 92,
+"parent_name": "DEF-f_middle.01.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999974, -0.00723173, -1.38162e-06, 0.00702596, 0.971566, -0.236666, 0.00171284, 0.236659, 0.971591, -7.38126e-09, 0.0451605, -2.01761e-07 )
+},
+94: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_middle.03.L",
+"parent": 93,
+"parent_name": "DEF-f_middle.02.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999848, 0.0174316, -0.000882272, -0.0174089, 0.992366, -0.122092, -0.00125273, 0.122089, 0.992518, -8.43449e-09, 0.0293494, 1.36691e-07 )
+},
+95: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-palm.04.L",
+"parent": 86,
+"parent_name": "DEF-hand.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.228561, 0.0392081, 0.97274, -0.18848, 0.982066, 0.00470249, -0.95511, -0.184417, 0.231852, 0.000658102, 0.0328105, -0.0223928 )
+},
+96: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_ring.01.L",
+"parent": 86,
+"parent_name": "DEF-hand.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.102347, 0.500288, 0.859789, 0.0279247, 0.862543, -0.505214, -0.994357, 0.0757164, 0.074308, -0.00607233, 0.0999282, -0.0143857 )
+},
+97: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_ring.02.L",
+"parent": 96,
+"parent_name": "DEF-f_ring.01.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999975, 0.0071031, 2.95753e-07, -0.007019, 0.988142, -0.153384, -0.0010898, 0.15338, 0.988167, 5.58792e-09, 0.0408545, 2.2236e-07 )
+},
+98: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_ring.03.L",
+"parent": 97,
+"parent_name": "DEF-f_ring.02.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999819, -0.0189123, 0.00225372, 0.0186504, 0.94817, -0.317214, 0.00386234, 0.317199, 0.948351, 9.83943e-09, 0.028989, 1.40565e-08 )
+},
+99: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_pinky.01.L",
+"parent": 86,
+"parent_name": "DEF-hand.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.163495, 0.654447, 0.73822, -0.0583198, 0.753392, -0.654981, -0.984819, 0.0640332, 0.161343, 0.00333164, 0.0997763, -0.034968 )
+},
+100: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_pinky.02.L",
+"parent": 99,
+"parent_name": "DEF-f_pinky.01.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999965, 0.00836317, 8.86212e-08, -0.00832726, 0.995673, -0.0925562, -0.000774152, 0.092553, 0.995707, 7.45059e-09, 0.0254117, 7.65783e-08 )
+},
+101: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-f_pinky.03.L",
+"parent": 100,
+"parent_name": "DEF-f_pinky.02.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999782, -0.020817, 0.00145044, 0.020753, 0.984626, -0.17344, 0.00218235, 0.173432, 0.984843, -7.36088e-09, 0.0205951, 4.33019e-08 )
+},
+102: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-palm.01.L",
+"parent": 86,
+"parent_name": "DEF-hand.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.204677, -0.0377424, 0.978102, 0.15048, 0.988591, 0.00665769, -0.967194, 0.145822, 0.208021, -0.0092277, 0.0359268, 0.0193853 )
+},
+103: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thumb.01.L",
+"parent": 86,
+"parent_name": "DEF-hand.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.90602, 0.325913, -0.270016, 0.123158, 0.813393, 0.568528, 0.40492, 0.481844, -0.777089, 0.0121231, 0.028092, 0.0259893 )
+},
+104: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thumb.02.L",
+"parent": 103,
+"parent_name": "DEF-thumb.01.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999763, -0.0217777, -3.70899e-07, 0.0204506, 0.938845, -0.343733, 0.00748606, 0.343651, 0.939068, 7.57756e-08, 0.0380538, -2.59936e-08 )
+},
+105: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-thumb.03.L",
+"parent": 104,
+"parent_name": "DEF-thumb.02.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.998388, 0.0567401, -0.00148099, -0.0567094, 0.996073, -0.0679931, -0.00238275, 0.0679674, 0.997685, 5.66661e-08, 0.0304893, 2.29554e-08 )
+},
+106: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-spine.004",
+"parent": 55,
+"parent_name": "DEF-spine.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -7.10543e-15, 2.38419e-07, 1.18555e-07, 0.867605, -0.497254, -2.06853e-07, 0.497254, 0.867605, -3.30872e-23, 0.175552, 9.31323e-10 )
+},
+107: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-spine.005",
+"parent": 106,
+"parent_name": "DEF-spine.004",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 1.94747e-08, 7.96722e-10, -1.94747e-08, 0.996658, 0.0816828, 7.96687e-10, -0.0816828, 0.996659, -5.22073e-16, 0.0636024, -5.73179e-08 )
+},
+108: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-spine.006",
+"parent": 107,
+"parent_name": "DEF-spine.005",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 9.50563e-08, -2.1865e-07, -1.06581e-14, 0.917084, 0.398695, 2.38419e-07, -0.398695, 0.917084, -1.68523e-14, 0.0612305, 7.45058e-09 )
+},
+109: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.R.004",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.670467, -0.104363, 0.734563, -0.215493, 0.919986, 0.327397, -0.709955, -0.377802, 0.594331, -0.0773771, 0.0270485, -0.00468191 )
+},
+110: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.R",
+"parent": 109,
+"parent_name": "DEF-ear.R.004",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.79533, -0.353456, -0.492463, 0.229498, 0.927507, -0.29506, 0.561053, 0.121651, 0.818792, 3.75707e-08, 0.0202548, -2.93168e-08 )
+},
+111: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.R.001",
+"parent": 110,
+"parent_name": "DEF-ear.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.992207, -0.00993133, -0.124201, 0.10287, 0.627727, 0.771606, 0.0703015, -0.77837, 0.623857, 1.62041e-08, 0.0289296, -6.27287e-08 )
+},
+112: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.R.002",
+"parent": 111,
+"parent_name": "DEF-ear.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.940566, -0.156387, -0.301461, 0.176254, -0.533976, 0.826925, -0.290293, -0.830911, -0.474676, -1.57823e-08, 0.0148492, 3.03556e-08 )
+},
+113: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.R.003",
+"parent": 112,
+"parent_name": "DEF-ear.R.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.966745, -0.236908, -0.0963253, 0.236908, 0.687733, 0.68622, -0.0963252, -0.68622, 0.720988, -4.22083e-09, 0.0320908, 4.27287e-10 )
+},
+114: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-jaw_master",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -4.03897e-28, -1.48815e-28, -4.03897e-28, -0.760944, -0.648817, 1.48815e-28, 0.648817, -0.760944, 0, 0.0749101, 0.0129162 )
+},
+115: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.T.L",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.699908, -0.104901, -0.706488, -0.210989, 0.914644, -0.344832, 0.682358, 0.390412, 0.618034, 0.069655, 0.0596235, 0.0631422 )
+},
+116: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.T.L.001",
+"parent": 115,
+"parent_name": "DEF-brow.T.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.994454, -0.0886304, 0.0566164, 0.0886302, 0.416458, -0.904824, 0.0566166, 0.904824, 0.422004, -1.36218e-08, 0.0430943, -2.4237e-08 )
+},
+117: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.T.L.002",
+"parent": 116,
+"parent_name": "DEF-brow.T.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.838164, -0.51065, 0.191619, 0.540474, 0.73042, -0.417582, 0.0732761, 0.453568, 0.888205, -2.04312e-08, 0.0360302, -1.1815e-07 )
+},
+118: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.T.L.003",
+"parent": 117,
+"parent_name": "DEF-brow.T.L.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.988709, 0.149512, 0.0100356, -0.134132, 0.912882, -0.385558, -0.0668067, 0.379858, 0.922629, -1.88269e-08, 0.0283473, -1.13299e-08 )
+},
+119: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forehead.L",
+"parent": 117,
+"parent_name": "DEF-brow.T.L.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.915513, 0.386271, 0.112385, -0.0298253, 0.343769, -0.938581, -0.401181, 0.855931, 0.326245, -0.0263862, 0.00486447, -0.0584684 )
+},
+120: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forehead.L.001",
+"parent": 116,
+"parent_name": "DEF-brow.T.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.839024, 0.406343, 0.361835, 0.343871, 0.11935, -0.931401, -0.421653, 0.905892, -0.0395923, -0.0236109, 0.0290952, -0.0526376 )
+},
+121: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forehead.L.002",
+"parent": 115,
+"parent_name": "DEF-brow.T.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.857843, 0.501307, 0.113124, 0.467355, -0.669443, -0.57743, -0.21374, 0.548213, -0.808565, -0.0321445, 0.0860198, -0.0351522 )
+},
+122: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-cheek.T.L",
+"parent": 115,
+"parent_name": "DEF-brow.T.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.2385, 0.0968228, -0.966304, -0.95922, 0.178921, -0.218824, 0.151705, 0.979087, 0.135547, -2.1541e-08, -3.70036e-08, -7.55066e-08 )
+},
+123: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-cheek.T.L.001",
+"parent": 122,
+"parent_name": "DEF-cheek.T.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.715661, -0.621356, 0.318976, 0.653326, 0.434052, -0.620293, 0.246971, 0.652315, 0.716582, 1.99112e-07, 0.0473624, 1.61709e-08 )
+},
+124: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-jaw",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 1.7053e-13, 1.66895e-06, 1.66397e-06, -0.0771388, -0.99702, 1.2874e-07, 0.99702, -0.0771388, 0, -0.027729, 0.0420869 )
+},
+125: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-chin",
+"parent": 124,
+"parent_name": "DEF-jaw",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 1.48434e-06, -5.24547e-07, -2.12047e-07, 0.457155, 0.889387, 1.55995e-06, -0.889387, 0.457155, -1.11178e-13, 0.0626516, 9.98917e-08 )
+},
+126: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-chin.001",
+"parent": 125,
+"parent_name": "DEF-chin",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 1.87416e-07, 9.10453e-08, -1.87416e-07, 0.618126, 0.786079, 9.10464e-08, -0.786079, 0.618126, -7.25214e-15, 0.013272, 8.15467e-08 )
+},
+127: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.L.004",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.670467, 0.104363, -0.734563, 0.215493, 0.919986, 0.327397, 0.709955, -0.377802, 0.594331, 0.0773771, 0.0270485, -0.00468191 )
+},
+128: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.L",
+"parent": 127,
+"parent_name": "DEF-ear.L.004",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.79533, 0.353456, 0.492463, -0.229498, 0.927507, -0.29506, -0.561053, 0.121651, 0.818792, -3.75707e-08, 0.0202548, -2.93168e-08 )
+},
+129: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.L.001",
+"parent": 128,
+"parent_name": "DEF-ear.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.992207, 0.00993133, 0.124201, -0.10287, 0.627727, 0.771606, -0.0703015, -0.77837, 0.623857, -1.62041e-08, 0.0289296, -6.27287e-08 )
+},
+130: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.L.002",
+"parent": 129,
+"parent_name": "DEF-ear.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.940566, 0.156387, 0.301461, -0.176254, -0.533976, 0.826925, 0.290293, -0.830911, -0.474676, 1.57823e-08, 0.0148492, 3.03556e-08 )
+},
+131: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-ear.L.003",
+"parent": 130,
+"parent_name": "DEF-ear.L.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.966745, 0.236908, 0.0963253, -0.236908, 0.687733, 0.68622, 0.0963252, -0.68622, 0.720988, 4.22083e-09, 0.0320908, 4.27287e-10 )
+},
+132: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-cheek.B.L",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.662053, 0.711464, -0.235592, -0.16119, 0.442167, 0.88233, 0.731918, -0.546174, 0.40742, 0.0296876, 0.00661662, 0.0934475 )
+},
+133: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-cheek.B.L.001",
+"parent": 132,
+"parent_name": "DEF-cheek.B.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.990877, -0.13298, 0.0218989, 0.0994474, 0.611781, -0.784751, 0.0909591, 0.779769, 0.619424, 2.36845e-08, 0.0488062, 5.55279e-08 )
+},
+134: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-teeth.T",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -2.20316e-21, -1.016e-21, 1.47363e-21, 0.218898, 0.975748, -1.92733e-21, -0.975748, 0.218898, 1.65436e-24, 0.0203283, 0.0988787 )
+},
+135: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-teeth.B",
+"parent": 134,
+"parent_name": "DEF-teeth.T",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 4.59089e-22, -1.94535e-21, -3.86173e-22, 0.999303, 0.037318, 1.96113e-21, -0.037318, 0.999303, -1.65436e-24, 6.25208e-05, -0.0280395 )
+},
+136: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-tongue",
+"parent": 134,
+"parent_name": "DEF-teeth.T",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.993445, 0.109612, 0.0324486, -0.113173, 0.98308, 0.14403, -0.0161121, -0.146758, 0.989041, 6.49373e-10, 0.00641618, -0.013698 )
+},
+137: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-tongue.001",
+"parent": 136,
+"parent_name": "DEF-tongue",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.998155, -0.0521334, -0.0311187, 0.0539844, 0.996618, 0.0619472, 0.027784, -0.0635129, 0.997594, 3.4135e-09, 0.0138009, -2.99835e-08 )
+},
+138: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-tongue.002",
+"parent": 137,
+"parent_name": "DEF-tongue.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.988616, -0.137322, -0.0614879, 0.140424, 0.695363, 0.704806, -0.0540287, -0.705417, 0.70673, -1.637e-08, 0.015082, 2.62441e-09 )
+},
+139: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-eye_master.R",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -1, 0, -8.74228e-08, -8.74228e-08, 0, 1, 0, 1, 0, -0.0367011, 0.0780429, 0.0794221 )
+},
+140: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lip.B.R",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.53898, -0.841209, 0.0432109, 0.0823975, 0.103709, 0.991189, -0.838278, -0.530671, 0.125211, -1.17962e-08, -0.00144132, 0.113254 )
+},
+141: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lip.B.R.001",
+"parent": 140,
+"parent_name": "DEF-lip.B.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.993356, 0.0750984, -0.0871945, -0.0943819, 0.965184, -0.243951, 0.0658384, 0.25056, 0.96586, -1.36846e-08, 0.0200478, -6.42279e-08 )
+},
+142: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lip.T.R.001",
+"parent": 141,
+"parent_name": "DEF-lip.B.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.963491, 0.0756634, 0.256827, -0.213464, 0.796091, 0.566278, -0.161611, -0.600427, 0.783179, -0.00132763, 0.00289007, 0.0105358 )
+},
+143: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lip.T.R",
+"parent": 142,
+"parent_name": "DEF-lip.T.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.956768, -0.243024, -0.159792, 0.23725, 0.969915, -0.0545691, 0.168246, 0.0142995, 0.985641, 0.00516565, -0.0206159, -0.000303894 )
+},
+144: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.R",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.0226365, 0.663668, -0.747685, -0.812725, 0.447748, 0.372828, 0.582208, 0.599223, 0.549514, -0.0570153, 0.0816921, 0.0823864 )
+},
+145: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.R.001",
+"parent": 144,
+"parent_name": "DEF-brow.B.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.988124, 0.13877, -0.0659796, -0.0982827, 0.900866, 0.422825, 0.118114, -0.411319, 0.903806, 1.62944e-07, 0.010273, 1.47399e-07 )
+},
+146: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.R.002",
+"parent": 145,
+"parent_name": "DEF-brow.B.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.996696, 0.0389944, -0.0712517, 0.0153205, 0.771223, 0.636381, 0.0797662, -0.63537, 0.768077, 2.31398e-07, 0.0124059, 2.02272e-07 )
+},
+147: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.R.003",
+"parent": 146,
+"parent_name": "DEF-brow.B.R.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.982212, 0.187284, 0.0135573, -0.179865, 0.91765, 0.354355, 0.0539242, -0.35049, 0.935013, 2.18344e-07, 0.0139035, 8.66499e-08 )
+},
+148: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.R.004",
+"parent": 147,
+"parent_name": "DEF-brow.B.R.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.419542, 0.906339, -0.0503455, -0.875563, 0.389415, -0.285911, -0.239527, 0.164032, 0.956933, -4.34209e-08, 0.0135375, -1.62954e-07 )
+},
+149: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-nose.R",
+"parent": 148,
+"parent_name": "DEF-brow.B.R.004",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.849913, -0.0251327, -0.526323, 0.278675, 0.869175, 0.408504, 0.4472, -0.493866, 0.745727, 2.66529e-08, 0.0141146, 7.43929e-08 )
+},
+150: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-nose.R.001",
+"parent": 149,
+"parent_name": "DEF-nose.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.874679, 0.393074, 0.2836, 0.270987, 0.0885438, -0.958502, -0.401873, 0.915234, -0.0290705, 2.7668e-08, 0.0312822, -6.38769e-09 )
+},
+151: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.T.R",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.699908, 0.104901, 0.706488, 0.210989, 0.914644, -0.344832, -0.682358, 0.390412, 0.618034, -0.069655, 0.0596235, 0.0631422 )
+},
+152: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forehead.R.002",
+"parent": 151,
+"parent_name": "DEF-brow.T.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.857843, -0.501307, -0.113124, -0.467355, -0.669443, -0.57743, 0.21374, 0.548213, -0.808565, 0.0321445, 0.0860198, -0.0351522 )
+},
+153: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-cheek.T.R",
+"parent": 151,
+"parent_name": "DEF-brow.T.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.2385, -0.0968228, 0.966304, 0.95922, 0.178921, -0.218824, -0.151705, 0.979087, 0.135547, 2.1541e-08, -3.70036e-08, -7.55066e-08 )
+},
+154: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-cheek.T.R.001",
+"parent": 153,
+"parent_name": "DEF-cheek.T.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.715661, 0.621356, -0.318976, -0.653326, 0.434052, -0.620293, -0.246971, 0.652315, 0.716582, -1.99112e-07, 0.0473624, 1.61709e-08 )
+},
+155: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.T.R.001",
+"parent": 151,
+"parent_name": "DEF-brow.T.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.994454, 0.0886304, -0.0566164, -0.0886302, 0.416458, -0.904824, -0.0566166, 0.904824, 0.422004, 1.36218e-08, 0.0430943, -2.4237e-08 )
+},
+156: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forehead.R.001",
+"parent": 155,
+"parent_name": "DEF-brow.T.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.839024, -0.406343, -0.361835, -0.343871, 0.11935, -0.931401, 0.421653, 0.905892, -0.0395923, 0.0236109, 0.0290952, -0.0526376 )
+},
+157: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.T.R.002",
+"parent": 155,
+"parent_name": "DEF-brow.T.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.838164, 0.51065, -0.191619, -0.540474, 0.73042, -0.417582, -0.0732761, 0.453568, 0.888205, 2.04312e-08, 0.0360302, -1.1815e-07 )
+},
+158: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-forehead.R",
+"parent": 157,
+"parent_name": "DEF-brow.T.R.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.915513, -0.386271, -0.112385, 0.0298253, 0.343769, -0.938581, 0.401181, 0.855931, 0.326245, 0.0263862, 0.00486447, -0.0584684 )
+},
+159: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.T.R.003",
+"parent": 157,
+"parent_name": "DEF-brow.T.R.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.988709, -0.149512, -0.0100356, 0.134132, 0.912882, -0.385558, 0.0668067, 0.379858, 0.922629, 1.88269e-08, 0.0283473, -1.13299e-08 )
+},
+160: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.T.R",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.0695976, 0.687337, 0.722997, 0.810013, 0.461963, -0.361204, -0.582267, 0.560498, -0.588903, -0.054641, 0.0787695, 0.0825774 )
+},
+161: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.T.R.001",
+"parent": 160,
+"parent_name": "DEF-lid.T.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.984687, -0.15782, 0.0740616, 0.174312, 0.88453, -0.432692, 0.00277779, 0.438976, 0.898495, -8.82334e-08, 0.010467, -1.9139e-07 )
+},
+162: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.T.R.002",
+"parent": 161,
+"parent_name": "DEF-lid.T.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.990515, -0.128578, 0.0484616, 0.134898, 0.842834, -0.520993, 0.0261432, 0.522589, 0.852184, -2.05822e-07, 0.00905987, 1.21072e-08 )
+},
+163: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.T.R.003",
+"parent": 162,
+"parent_name": "DEF-lid.T.R.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.980729, -0.195363, 0.00193486, 0.174292, 0.870389, -0.460485, 0.0882777, 0.451948, 0.887666, -9.69979e-08, 0.0115046, -7.44681e-08 )
+},
+164: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.B.R",
+"parent": 163,
+"parent_name": "DEF-lid.T.R.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.225583, -0.755673, 0.614874, 0.805855, -0.499403, -0.31811, 0.547457, 0.42374, 0.72162, -1.25146e-07, 0.0100615, 9.32017e-08 )
+},
+165: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.B.R.001",
+"parent": 164,
+"parent_name": "DEF-lid.B.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.987939, -0.132414, 0.0802634, 0.150056, 0.946603, -0.285351, -0.0381931, 0.293954, 0.955056, 2.03956e-08, 0.00765413, 1.76514e-07 )
+},
+166: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.B.R.002",
+"parent": 165,
+"parent_name": "DEF-lid.B.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999432, -0.0312668, 0.0125675, 0.0318162, 0.752658, -0.657643, 0.0111034, 0.657669, 0.753225, 3.1116e-07, 0.0115373, 3.74873e-08 )
+},
+167: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.B.R.003",
+"parent": 166,
+"parent_name": "DEF-lid.B.R.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.928143, -0.342408, -0.145972, 0.319954, 0.934299, -0.157208, 0.190211, 0.0992075, 0.976718, 3.57263e-07, 0.0118286, 6.07497e-08 )
+},
+168: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-temple.R",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.995285, -0.094918, 0.0210613, -0.0940855, -0.994854, -0.0376059, 0.0245229, 0.0354461, -0.999074, -0.0693076, 0.146547, 0.0103637 )
+},
+169: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-jaw.R",
+"parent": 168,
+"parent_name": "DEF-temple.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.96337, 0.268073, 0.00743966, -0.268073, 0.961858, 0.054453, 0.00744151, -0.0544528, 0.998489, -2.32831e-10, 0.0720074, -3.72529e-09 )
+},
+170: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-jaw.R.001",
+"parent": 169,
+"parent_name": "DEF-jaw.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.911384, 0.379782, 0.158574, -0.379781, 0.62762, 0.679603, 0.158576, -0.679602, 0.716236, 8.26638e-08, 0.0613645, -2.13931e-08 )
+},
+171: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-chin.R",
+"parent": 170,
+"parent_name": "DEF-jaw.R.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.835913, 0.333848, 0.435654, -0.402075, -0.16783, 0.900093, 0.37361, -0.927566, -0.00605929, 3.90605e-08, 0.0816769, 4.82482e-08 )
+},
+172: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-temple.L",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.995285, 0.094918, -0.0210613, 0.0940855, -0.994854, -0.0376059, -0.0245229, 0.0354461, -0.999074, 0.0693076, 0.146547, 0.0103637 )
+},
+173: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-jaw.L",
+"parent": 172,
+"parent_name": "DEF-temple.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.96337, -0.268073, -0.00743966, 0.268073, 0.961858, 0.054453, -0.00744151, -0.0544528, 0.998489, 2.32831e-10, 0.0720074, -3.72529e-09 )
+},
+174: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-jaw.L.001",
+"parent": 173,
+"parent_name": "DEF-jaw.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.911384, -0.379782, -0.158574, 0.379781, 0.62762, 0.679603, -0.158576, -0.679602, 0.716236, -8.26638e-08, 0.0613645, -2.13931e-08 )
+},
+175: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-chin.L",
+"parent": 174,
+"parent_name": "DEF-jaw.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.835913, -0.333848, -0.435654, 0.402075, -0.16783, 0.900093, -0.37361, -0.927566, -0.00605929, -3.90605e-08, 0.0816769, 4.82482e-08 )
+},
+176: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.T.L",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.0695976, -0.687337, -0.722997, -0.810013, 0.461963, -0.361204, 0.582267, 0.560498, -0.588903, 0.054641, 0.0787695, 0.0825774 )
+},
+177: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.T.L.001",
+"parent": 176,
+"parent_name": "DEF-lid.T.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.984687, 0.15782, -0.0740616, -0.174312, 0.88453, -0.432692, -0.00277779, 0.438976, 0.898495, 8.82334e-08, 0.010467, -1.9139e-07 )
+},
+178: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.T.L.002",
+"parent": 177,
+"parent_name": "DEF-lid.T.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.990515, 0.128578, -0.0484616, -0.134898, 0.842834, -0.520993, -0.0261432, 0.522589, 0.852184, 2.05822e-07, 0.00905987, 1.21072e-08 )
+},
+179: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.T.L.003",
+"parent": 178,
+"parent_name": "DEF-lid.T.L.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.980729, 0.195363, -0.00193486, -0.174292, 0.870389, -0.460485, -0.0882777, 0.451948, 0.887666, 9.69979e-08, 0.0115046, -7.44681e-08 )
+},
+180: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.B.L",
+"parent": 179,
+"parent_name": "DEF-lid.T.L.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -0.225583, 0.755673, -0.614874, -0.805855, -0.499403, -0.31811, -0.547457, 0.42374, 0.72162, 1.25146e-07, 0.0100615, 9.32017e-08 )
+},
+181: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.B.L.001",
+"parent": 180,
+"parent_name": "DEF-lid.B.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.987939, 0.132414, -0.0802632, -0.150056, 0.946603, -0.285351, 0.038193, 0.293954, 0.955056, 1.0216e-07, 0.00765413, 1.24141e-07 )
+},
+182: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.B.L.002",
+"parent": 181,
+"parent_name": "DEF-lid.B.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999432, 0.0312667, -0.0125676, -0.0318161, 0.752658, -0.657643, -0.0111032, 0.657669, 0.753225, 5.30849e-08, 0.0115374, 6.2822e-08 )
+},
+183: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lid.B.L.003",
+"parent": 182,
+"parent_name": "DEF-lid.B.L.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.928143, 0.342408, 0.145972, -0.319954, 0.934299, -0.157208, -0.190211, 0.0992075, 0.976718, -4.94364e-08, 0.0118284, 5.57276e-08 )
+},
+184: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lip.B.L",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.53898, 0.841209, -0.0432109, -0.0823975, 0.103709, 0.991189, 0.838278, -0.530671, 0.125211, 1.17962e-08, -0.00144132, 0.113254 )
+},
+185: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lip.B.L.001",
+"parent": 184,
+"parent_name": "DEF-lip.B.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.993356, -0.0750984, 0.0871945, 0.0943819, 0.965184, -0.243951, -0.0658384, 0.25056, 0.96586, 1.36846e-08, 0.0200478, -6.42279e-08 )
+},
+186: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lip.T.L.001",
+"parent": 185,
+"parent_name": "DEF-lip.B.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.963491, -0.0756634, -0.256827, 0.213464, 0.796091, 0.566278, 0.161611, -0.600427, 0.783179, 0.00132763, 0.00289007, 0.0105358 )
+},
+187: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-lip.T.L",
+"parent": 186,
+"parent_name": "DEF-lip.T.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.956768, 0.243024, 0.159792, -0.23725, 0.969915, -0.0545691, -0.168246, 0.0142995, 0.985641, -0.00516565, -0.0206159, -0.000303894 )
+},
+188: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-eye_master.L",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -1, 0, -8.74228e-08, -8.74228e-08, 0, 1, 0, 1, 0, 0.0367011, 0.0780429, 0.079422 )
+},
+189: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-cheek.B.R",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.662053, -0.711464, 0.235592, 0.16119, 0.442167, 0.88233, -0.731918, -0.546174, 0.40742, -0.0296876, 0.00661662, 0.0934475 )
+},
+190: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-cheek.B.R.001",
+"parent": 189,
+"parent_name": "DEF-cheek.B.R",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.990877, 0.13298, -0.0218989, -0.0994474, 0.611781, -0.784751, -0.0909591, 0.779769, 0.619424, -2.36845e-08, 0.0488062, 5.55279e-08 )
+},
+191: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-nose",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 3.55271e-15, 2.38419e-07, 8.28272e-08, -0.937716, -0.347402, 2.23569e-07, 0.347402, -0.937716, 1.42109e-14, 0.0832817, 0.108254 )
+},
+192: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-nose.001",
+"parent": 191,
+"parent_name": "DEF-nose",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 4.76867e-08, 2.43236e-07, -9.53733e-08, 0.979793, 0.200012, -2.28783e-07, -0.200012, 0.979793, -1.01958e-13, 0.0282382, -9.29571e-08 )
+},
+193: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-nose.002",
+"parent": 192,
+"parent_name": "DEF-nose.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -4.76474e-07, -1.86151e-08, 4.26326e-14, 0.0390388, -0.999238, 4.76837e-07, 0.999238, 0.0390388, -2.08338e-14, 0.0242715, -2.98023e-08 )
+},
+194: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-nose.003",
+"parent": 193,
+"parent_name": "DEF-nose.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -5.88429e-14, -4.36092e-14, 2.84217e-14, 0.860531, -0.509398, 6.75015e-14, 0.509398, 0.860531, -5.29396e-22, 0.00780411, -8.19564e-08 )
+},
+195: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-nose.004",
+"parent": 194,
+"parent_name": "DEF-nose.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 1.93459e-20, 9.87125e-22, 2.88295e-21, -0.199026, 0.979994, 1.91553e-20, -0.979994, -0.199026, -7.04492e-23, 0.0135164, 8.3819e-09 )
+},
+196: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-HairRoot",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -7.90568e-07, 2.38544e-07, 7.90598e-07, 1, -0.000126434, -2.38444e-07, 0.000126434, 1, 9.30248e-08, -0.013243, -0.0147021 )
+},
+197: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.1",
+"parent": 196,
+"parent_name": "DEF-HairRoot",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.993652, 2.12342e-07, 0.112494, -0.0918464, 0.577414, 0.811269, -0.0649557, -0.816451, 0.573749, -1.48064e-08, 0.0787725, 1.10052e-07 )
+},
+198: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.2",
+"parent": 197,
+"parent_name": "HairTailBone.1",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.988956, 0.0649558, -0.133215, 0.0240857, 0.816453, 0.57691, 0.146237, -0.573747, 0.805872, -3.32823e-08, 0.106395, 1.8032e-07 )
+},
+199: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.3",
+"parent": 198,
+"parent_name": "HairTailBone.2",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999126, -0.0417132, 0.00270668, -0.00270911, -1.54972e-06, 0.999996, -0.041713, -0.99913, -0.00011456, -1.63408e-08, 0.0631336, -3.47574e-07 )
+},
+200: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.4",
+"parent": 199,
+"parent_name": "HairTailBone.3",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999996, -6.47039e-09, -0.00280785, 6.64957e-09, 1, 6.38024e-08, 0.00280785, -6.38208e-08, 0.999996, 3.19425e-11, 0.05, 6.2046e-09 )
+},
+201: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.5",
+"parent": 200,
+"parent_name": "HairTailBone.4",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -1.03574e-11, 0.000101092, 1.68867e-12, 1, 8.57505e-08, -0.000101092, -8.57505e-08, 1, -2.62901e-13, 0.07, -8.50608e-09 )
+},
+202: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.6",
+"parent": 201,
+"parent_name": "HairTailBone.5",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 1.91071e-13, -2.14551e-06, -5.65385e-13, 1, -1.74464e-07, 2.14551e-06, 1.74464e-07, 1, -4.26326e-14, 0.0500002, 7.86083e-10 )
+},
+203: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.L",
+"parent": 108,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.0226365, -0.663668, 0.747685, 0.812725, 0.447748, 0.372828, -0.582208, 0.599223, 0.549514, 0.0570153, 0.0816921, 0.0823864 )
+},
+204: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.L.001",
+"parent": 203,
+"parent_name": "DEF-brow.B.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.988124, -0.13877, 0.0659796, 0.0982827, 0.900866, 0.422825, -0.118114, -0.411319, 0.903806, -1.62944e-07, 0.010273, 1.47399e-07 )
+},
+205: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.L.002",
+"parent": 204,
+"parent_name": "DEF-brow.B.L.001",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.996696, -0.0389944, 0.0712517, -0.0153205, 0.771223, 0.636381, -0.0797662, -0.63537, 0.768077, -2.31398e-07, 0.0124059, 2.02272e-07 )
+},
+206: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.L.003",
+"parent": 205,
+"parent_name": "DEF-brow.B.L.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.982212, -0.187284, -0.0135573, 0.179865, 0.91765, 0.354355, -0.0539242, -0.35049, 0.935013, -2.18344e-07, 0.0139035, 8.66499e-08 )
+},
+207: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-brow.B.L.004",
+"parent": 206,
+"parent_name": "DEF-brow.B.L.003",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.419542, -0.906339, 0.0503455, 0.875563, 0.389415, -0.285911, 0.239527, 0.164032, 0.956933, 4.34209e-08, 0.0135375, -1.62954e-07 )
+},
+208: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-nose.L",
+"parent": 207,
+"parent_name": "DEF-brow.B.L.004",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.849913, 0.0251327, 0.526323, -0.278675, 0.869175, 0.408504, -0.4472, -0.493866, 0.745727, -2.66529e-08, 0.0141146, 7.43929e-08 )
+},
+209: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-nose.L.001",
+"parent": 208,
+"parent_name": "DEF-nose.L",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.874679, -0.393074, -0.2836, -0.270987, 0.0885438, -0.958502, 0.401873, 0.915234, -0.0290705, -2.7668e-08, 0.0312822, -6.38769e-09 )
+},
+210: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-breast.L",
+"parent": 53,
+"parent_name": "DEF-spine.002",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( -1, -2.34862e-07, -9.14607e-08, -8.39429e-08, -0.0318124, 0.999494, -2.37653e-07, 0.999494, 0.0318124, 0.109898, 0.160183, 0.131594 )
+}
+}
+scale = Vector3( 1, 1, 1 )

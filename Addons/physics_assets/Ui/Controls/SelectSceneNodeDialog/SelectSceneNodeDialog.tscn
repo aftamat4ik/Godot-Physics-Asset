@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Addons/physics_assets/Ui/Controls/SelectSceneNodeDialog/SelectSceneNodeDialog.gd" type="Script" id=1]
+[ext_resource path="res://Addons/physics_assets/Ui/Controls/SelectSceneNodeDialog/TreeFiles.gd" type="Script" id=2]
+[ext_resource path="res://Addons/physics_assets/Ui/Controls/SelectSceneNodeDialog/TreeScene.gd" type="Script" id=3]
+
+[node name="ConfirmationDialog" type="ConfirmationDialog"]
+anchor_right = 0.586914
+anchor_bottom = 0.578333
+rect_min_size = Vector2( 300, 250 )
+window_title = "Please Select Scene Node..."
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+filter_extensions = [ "*.tscn" ]
+file_opened_paths = [ "res://Addons/physics_assets/Scene/PhysicsAssetScene.tscn" ]
+current_scene_path = "res://Addons/physics_assets/Scene/PhysicsAssetScene.tscn"
+
+[node name="SelectSceneNodeDialog" type="VBoxContainer" parent="."]
+margin_left = 8.0
+margin_top = 8.0
+margin_right = 593.0
+margin_bottom = 311.0
+
+[node name="HSplitContainer" type="HSplitContainer" parent="SelectSceneNodeDialog"]
+margin_right = 584.0
+margin_bottom = 302.0
+size_flags_vertical = 3
+
+[node name="TreeFiles" type="Tree" parent="SelectSceneNodeDialog/HSplitContainer"]
+unique_name_in_owner = true
+margin_right = 286.0
+margin_bottom = 302.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 2 )
+filter_extensions = [ "*.tscn" ]
+file_opened_paths = [ "res://Addons/physics_assets/Scene/PhysicsAssetScene.tscn" ]
+
+[node name="TreeScene" type="Tree" parent="SelectSceneNodeDialog/HSplitContainer"]
+unique_name_in_owner = true
+margin_left = 298.0
+margin_right = 584.0
+margin_bottom = 302.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 3 )
+selected_node = ""
+selectable_class = "Skeleton"
+current_scene_path = "res://Addons/physics_assets/Scene/PhysicsAssetScene.tscn"

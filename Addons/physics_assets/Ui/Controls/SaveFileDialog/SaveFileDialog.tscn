@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Addons/physics_assets/Ui/Controls/SaveFileDialog/SaveFileDialog.gd" type="Script" id=1]
+
+[node name="SaveFileEditorDialog" type="FileDialog"]
+visible = true
+anchor_right = 0.545898
+anchor_bottom = 0.598333
+rect_min_size = Vector2( 500, 300 )
+window_title = "Save File"
+resizable = true
+filters = PoolStringArray( "*.tres ; Resources" )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}

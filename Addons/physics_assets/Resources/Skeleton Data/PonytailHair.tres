@@ -1,0 +1,72 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Addons/physics_assets/Resources/SkeletonDataResource.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+data = {
+0: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "DEF-spine.006",
+"parent": -1,
+"parent_name": "",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 0, 2.38419e-07, 0, 1, 0, -2.38419e-07, 0, 1, 3.16263e-11, 1.61056, 0.0293722 )
+},
+1: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.1",
+"parent": 0,
+"parent_name": "DEF-spine.006",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.993652, 1.9744e-07, 0.112494, -0.0918463, 0.577415, 0.811268, -0.0649558, -0.816451, 0.57375, 1.48066e-08, 0.0787725, 9.97246e-09 )
+},
+2: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.2",
+"parent": 1,
+"parent_name": "HairTailBone.1",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.988956, 0.064956, -0.133215, 0.0240858, 0.816451, 0.576912, 0.146237, -0.573749, 0.80587, 6.69308e-09, 0.106395, -1.58607e-07 )
+},
+3: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.3",
+"parent": 2,
+"parent_name": "HairTailBone.2",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999126, -0.0417133, 0.00270676, -0.00270912, -2.38419e-07, 0.999996, -0.0417131, -0.99913, -0.00011313, -1.37438e-08, 0.0631336, -2.3826e-07 )
+},
+4: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.4",
+"parent": 3,
+"parent_name": "HairTailBone.3",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 0.999996, 3.72514e-09, -0.00280786, -3.7253e-09, 1, -5.04668e-11, 0.00280786, 6.09267e-11, 0.999996, 1.18117e-12, 0.0500002, -1.18075e-10 )
+},
+5: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.5",
+"parent": 4,
+"parent_name": "HairTailBone.4",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, -3.61389e-16, 0.000101092, 3.6153e-16, 1, -1.38599e-15, -0.000101092, 1.38602e-15, 1, -5.91083e-13, 0.0699999, 5.26551e-13 )
+},
+6: {
+"bone_rest_disabled": false,
+"custom_pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"name": "HairTailBone.6",
+"parent": 5,
+"parent_name": "HairTailBone.5",
+"pose": Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 ),
+"rest": Transform( 1, 1.26741e-16, -2.1455e-06, -1.26739e-16, 1, 1.23454e-15, 2.1455e-06, -1.23454e-15, 1, 6.21725e-15, 0.0500001, -1.26427e-14 )
+}
+}
+scale = Vector3( 1, 1, 1 )

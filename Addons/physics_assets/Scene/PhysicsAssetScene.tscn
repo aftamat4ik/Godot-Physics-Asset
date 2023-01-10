@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Addons/physics_assets/Scene/PhysicsAssetScene.gd" type="Script" id=1]
+
+[sub_resource type="SpatialMaterial" id=1]
+albedo_color = Color( 0.00784314, 0, 0.968627, 1 )
+metallic_specular = 0.0
+clearcoat_enabled = true
+clearcoat = 1.0
+clearcoat_gloss = 0.5
+
+[node name="PhysicsAssetScene_root" type="Spatial"]
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Floor" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.63065, 0 )
+use_collision = true
+width = 20.0
+height = 1.0
+depth = 20.0
+material = SubResource( 1 )
+__meta__ = {
+"_edit_lock_": true
+}

@@ -1,0 +1,108 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Skeleton",
+"class": "CombinedSkeleton",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/CustomTypes/CombinedSkeleton.gd"
+}, {
+"base": "Reference",
+"class": "PAErrors",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/Helpers/PAErrors.gd"
+}, {
+"base": "Reference",
+"class": "PAHelpers",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/Helpers/PAHelpers.gd"
+}, {
+"base": "PhysicalBone",
+"class": "PhysicalBoneEx",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/CustomTypes/PhysicalBoneEx.gd"
+}, {
+"base": "Reference",
+"class": "PhysicalBoneHeplers",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/Helpers/PhysicalBoneHeplers.gd"
+}, {
+"base": "FileDialog",
+"class": "SaveFileDialog",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/Ui/Controls/SaveFileDialog/SaveFileDialog.gd"
+}, {
+"base": "ConfirmationDialog",
+"class": "SelectSceneNodeDialog",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/Ui/Controls/SelectSceneNodeDialog/SelectSceneNodeDialog.gd"
+}, {
+"base": "Resource",
+"class": "SkeletonDataResource",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/Resources/SkeletonDataResource.gd"
+}, {
+"base": "Tree",
+"class": "TreeFiles",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/Ui/Controls/SelectSceneNodeDialog/TreeFiles.gd"
+}, {
+"base": "Tree",
+"class": "TreeScene",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/Ui/Controls/SelectSceneNodeDialog/TreeScene.gd"
+}, {
+"base": "BoneAttachment",
+"class": "WiggleBone",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/CustomTypes/WiggleBone.gd"
+}, {
+"base": "Resource",
+"class": "WiggleProperties",
+"language": "GDScript",
+"path": "res://Addons/physics_assets/Resources/WiggleProperties.gd"
+} ]
+_global_script_class_icons={
+"CombinedSkeleton": "",
+"PAErrors": "",
+"PAHelpers": "",
+"PhysicalBoneEx": "res://addons/physics_assets/Img/icon_bone_attachment.png",
+"PhysicalBoneHeplers": "",
+"SaveFileDialog": "",
+"SelectSceneNodeDialog": "",
+"SkeletonDataResource": "",
+"TreeFiles": "",
+"TreeScene": "",
+"WiggleBone": "",
+"WiggleProperties": ""
+}
+
+[application]
+
+config/name="PhysicsAsset"
+config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/physics_assets/plugin.cfg" )
+
+[gui]
+
+common/drop_mouse_on_gui_input_disabled=true
+
+[physics]
+
+3d/smooth_trimesh_collision=true
+common/enable_pause_aware_picking=true
+common/physics_interpolation=true
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
