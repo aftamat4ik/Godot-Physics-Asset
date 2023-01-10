@@ -333,6 +333,7 @@ func read_pattern():
 # on confirmation - load rules into text editor
 func load_rules_confirmed(rules:String):
 	txt_shape_rules.text = rules
+	save_rules()
 
 # returns first found body collision shape
 func find_body_collision_shape(body:PhysicsBody)->CollisionShape:
